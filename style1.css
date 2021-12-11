@@ -1,0 +1,86 @@
+*{
+    font-size: 25px;
+    font-family: fantasy;
+    text-decoration: none;
+    
+}
+header{
+    text-align: center;
+    outline: 1px solid black;
+    padding: 5px;
+    background-color: black;
+    color:white;
+    font-weight: normal;
+
+}
+.way{
+    text-align: center;
+    outline: 1px solid black;
+    padding:1px;
+    margin-top: 5px;
+
+}
+.button{
+    margin-left: 50%;
+    transform: translateX( -50%);
+    padding: 10px;
+    width: 200px;
+    border-radius: 25px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: black;
+   
+}
+.sbutton{
+    padding: 100px;
+    outline: 1px solid rgb(0, 0, 0,0.7);
+    margin-top: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    color: balck;
+    margin-top: 5px;
+    outline: 1px solid black;
+
+}
+footer:hover{
+    background-color: black;
+    color: white;
+}
+.total img {
+
+    outline: 2px solid black;
+    margin-top: 10px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+   width: 200px;
+   position: relative;
+   border-radius: 10px;
+}
+
+.total p
+{
+    text-align: center;
+    line-height: 3px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.total ul{
+    
+    list-style:none;
+    line-height: 1.5 rem;
+}
+
+.total h1{
+    color: red;
+    outline: black solid 2px ;
+    text-align: center;
+    word-spacing:10px;
+    letter-spacing: 3px;
+}
+ .contact{
+     text-align: center;
+     color: red;
+ }
